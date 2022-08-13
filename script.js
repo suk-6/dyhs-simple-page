@@ -1,6 +1,7 @@
 window.onload = function(){
     setInterval(setClock, 1000);
     setInterval(setMeal, 1000);
+    console.log("script load. 220813")
 }
 
 function setMeal(){
