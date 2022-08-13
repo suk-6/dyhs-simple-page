@@ -19,6 +19,13 @@ header {
 
 }
 
+@font-face {
+    font-family: 'GyeonggiTitleM';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiTitleM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @media screen and (hover: none) and (pointer: coarse) {
     .top_name > h1 {
         line-height: 320%;
@@ -72,13 +79,13 @@ header {
     margin-right: 20px;
 }
 
-.top_name > h1 {
-    font-weight: bold;
-}
-
 .center_meal {
     display: inline-block;
     float: left;
+}
+
+.title {
+    font-family: 'GyeonggiTitleM';
 }
 
 #lunch {
