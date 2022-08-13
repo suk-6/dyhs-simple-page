@@ -16,12 +16,12 @@ function setMeal(){
             var x = xmlDoc.getElementsByTagName("row");
             for(var i = 0; i < x.length; i++){
                 if(x[i].getElementsByTagName("MMEAL_SC_NM")[0].childNodes[0].nodeValue == "중식"){
-                    $("#lunch").html(`본 급식은 8월 22일자 급식입니다.<br>열량: ${x[i].getElementsByTagName("CAL_INFO")[0].childNodes[0].nodeValue}<br><br>${x[i].getElementsByTagName("DDISH_NM")[0].childNodes[0].nodeValue}`);
+                    $("#lunch").html(`본 급식은 8월 19일자 급식입니다.<br>열량: ${x[i].getElementsByTagName("CAL_INFO")[0].childNodes[0].nodeValue}<br><br>${x[i].getElementsByTagName("DDISH_NM")[0].childNodes[0].nodeValue}`);
                 }
             }
         }
     };
-    xhttp.open("GET", `https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=02523639969a4d6a961200f98959e647&ATPT_OFCDC_SC_CODE=J10&SD_SCHUL_CODE=7531328&MLSV_YMD=20220822`, true);
+    xhttp.open("GET", `https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=02523639969a4d6a961200f98959e647&ATPT_OFCDC_SC_CODE=J10&SD_SCHUL_CODE=7531328&MLSV_YMD=20220819`, true);
     xhttp.send();
 }
 
