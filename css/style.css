@@ -81,10 +81,6 @@ header {
     float: left;
 }
 
-.title {
-    font-family: 'NanumGothicBold';
-}
-
 #lunch {
     border: 1px solid black;
     padding: 5px;
