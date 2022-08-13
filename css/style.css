@@ -1,3 +1,7 @@
+* {
+    font-family: 'NanumGothic';
+}
+
 html, body {
     width: 100%; 
     height: 100%;
@@ -75,6 +79,10 @@ header {
 .center_meal {
     display: inline-block;
     float: left;
+}
+
+.title {
+    font-family: 'NanumGothicBold';
 }
 
 #lunch {
