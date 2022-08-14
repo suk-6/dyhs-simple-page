@@ -48,9 +48,10 @@ header {
 
     .body {
         margin: 25px;
-        transform: scale(1.8);
-        padding-top: 50px;
-        padding-left: 400px;
+        /* transform: scale(1.8); */
+        zoom: 170%;
+        padding-top: 30px;
+        padding-left: 110px;
     }
 
     .top_name {
@@ -67,7 +68,7 @@ header {
 
     .center_meal{
         padding-left: 70px;
-        padding-top: 50px;
+        padding-top: 10px;
     }
 }
 
